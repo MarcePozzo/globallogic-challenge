@@ -25,8 +25,10 @@ Listado de variables de entorno necesarias y su correspondiente valor por defect
 | JWT_SECRET | Secret para armar el JWT | mySecretKey |
 | JWT_EXPIRATIONMS | Periodo de expiración del JWT en Milisegundos | 86400000 |
 
-### Diagramas de secuencia
+### Diagramas
 
 ![Login](diagrams/sequence-diagram-login.png)
 
 ![Sign Up](diagrams/sequence-diagram-sign-up.png)
+
+![Component](diagrams/component-diagram.png)
