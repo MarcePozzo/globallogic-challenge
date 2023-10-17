@@ -7,6 +7,11 @@ plugins {
 group = 'ar.com.globallogic'
 version = '0.0.1-SNAPSHOT'
 
+jar {
+    archivesBaseName="${project.rootProject.name}"
+    project.version=""
+}
+
 java {
 	sourceCompatibility = '1.8'
 }
